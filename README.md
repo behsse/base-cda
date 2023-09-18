@@ -11,4 +11,7 @@ Currently, two official plugins are available:
 
 - git clone https://github.com/behsse/base-react-cda.git
 - pnpm install
-- Enjoy
+
+# Hooks
+
+- Exemple page Home (useState)
