@@ -10,9 +10,11 @@ const Navbar = () => {
         <Logo/>
         <nav>
             <ul>
-                {/* Le Link ici remplace les balises <a/>, il permet tout comme les a de passer de page en page mais sans recharger votre application */}
+                {/* Le Link ici remplace les balises <a href="" />, il permet tout comme les a de passer de page en page mais sans recharger votre application */}
                 <li> <Link to="/"> Home </Link> </li>
                 <li> <Link to="inscription"> Inscription </Link> </li>
+
+                {/* Nous passons des Props à notre composant Items, ici text et path (Voir l'utilisation dans Items.jsx) */}
                 <Items text="About" path="about"/>
             </ul>
         </nav>
