@@ -13,7 +13,7 @@ const Layout = () => {
     return(
         <>
         {/* Nous appelons la Navbar dans le Layout pour qu'elle soit sur toutes nos pages */}
-        <Navbar/>
+        {pathname === "/docknotes" ? "" : <Navbar/>}
         {/* Est ce que le pathname est égale à "/" ? Si oui affiche le composant Home, si non affiche le Outlet (le Outlet représente le composant appelé par la route (voir les paths dans le App.jsx)) | Nous appelons ceci un ternaire */}
         {pathname === "/" ? <Home/> : <Outlet/>}
         </>

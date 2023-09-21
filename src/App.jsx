@@ -7,6 +7,7 @@ import Inscription from './Pages/Inscription/Inscription'
 import Layout from './Layout/Layout'
 import Error from "./Pages/Error/Error"
 import About from './Pages/About/About'
+import Docknotes from './Projet/Docknotes/Docknotes'
 
 
 function App() {
@@ -29,6 +30,11 @@ function App() {
         {
           path: "/about",
           element: <About/>,
+          errorElement: <Error/>,
+        },
+        {
+          path: "/docknotes",
+          element: <Docknotes/>,
           errorElement: <Error/>,
         },
       ],
