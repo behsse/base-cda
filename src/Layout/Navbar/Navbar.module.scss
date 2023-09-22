@@ -1,7 +1,22 @@
-ul{
-    list-style-type: none;
-}
-a{
-    color: blue;
-    text-decoration: none;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    nav{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 1em;
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+            a{
+                color: blue;
+                text-decoration: none;
+            }
+        }
+    }
 }

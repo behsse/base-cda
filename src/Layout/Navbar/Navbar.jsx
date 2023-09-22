@@ -6,7 +6,7 @@ import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
     return(
-        <>
+        <div className={styles.container}>
         <Logo/>
         <nav>
             <ul>
@@ -16,9 +16,12 @@ const Navbar = () => {
 
                 {/* Nous passons des Props à notre composant Items, ici text et path (Voir l'utilisation dans Items.jsx) */}
                 <Items text="About" path="about"/>
+
+
+                <Items text="Docknotes" path="docknotes"/>
             </ul>
         </nav>
-        </>
+        </div>
     )
 }
 

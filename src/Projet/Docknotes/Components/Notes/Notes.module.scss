@@ -1,8 +1,18 @@
 .notes{
-    height: 15vw;
-    width: 14vw;
+    height: 12vw;
+    width: 13vw;
     border-radius: 1vw;
+    padding: 1.5vw 1vw;
+    margin: 1vw;
     textarea{
-        
+        background: none;
+        border: none;
+        resize: none;
+        outline: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: .8em;
+    }
+    p{
+        font-size: .8em;
     }
 }
