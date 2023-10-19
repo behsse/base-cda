@@ -8,6 +8,7 @@ import Layout from './Layout/Layout'
 import Error from "./Pages/Error/Error"
 import About from './Pages/About/About'
 import Docknotes from './Projet/Docknotes/Docknotes'
+import Todo from './Pages/Todo/Todo'
 
 
 function App() {
@@ -35,6 +36,11 @@ function App() {
         {
           path: "/docknotes",
           element: <Docknotes/>,
+          errorElement: <Error/>,
+        },
+        {
+          path: "/todo",
+          element: <Todo/>,
           errorElement: <Error/>,
         },
       ],

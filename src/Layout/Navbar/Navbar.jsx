@@ -19,6 +19,7 @@ const Navbar = () => {
 
 
                 <Items text="Docknotes" path="docknotes"/>
+                <li> <Link to= "/todo">Todo</Link></li>
             </ul>
         </nav>
         </div>
