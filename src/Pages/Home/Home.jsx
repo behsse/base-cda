@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Home.module.scss";
+import Formulaire from "../Formulaire/Formulaire";
 
 // Fonction addition qui prend en paramètre deux valeurs, cette fonction est utilisé pour l'exemple du useState avec la valeur par défaut
 const addition = (a, b) =>{
@@ -41,6 +42,7 @@ const Home = () =>{
             <h1 className={styles.main}>Home page</h1>
             {/* On utilise l'écoute d'événement onClick pour faire une action lorsque le bouton est cliqué, ici on appel la fonction increment */}
             <button onClick={increment}>Counter : {like}</button>
+            <Formulaire/>
         </>
     )
 }
